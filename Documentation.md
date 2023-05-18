@@ -17,11 +17,15 @@ local Tab = Window:CreateTab("Text")
 ```
 ### Creating a Section
 ```lua
-Section:CreateLabel("Text")
+local Section = Tab:CreateSection("Text")
 ```
 ### Creating a Button
 ```lua
-Section:CreateButton("Change Button Name",function()
+Section:CreateButton("Text",function()
 print("Script")
 end)
+```
+### Creating a Label
+```lua
+Section:CreateLabel("Text")
 ```
