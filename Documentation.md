@@ -8,3 +8,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Dialz
 
 ```
 ### Creating a Window
+```lua
+local Window = Library:CreateWindow("Title")
+```
