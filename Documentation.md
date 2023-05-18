@@ -11,3 +11,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Dialz
 ```lua
 local Window = Library:CreateWindow("Title")
 ```
+### Creation a Tab
+```lua
+local Tab = Window:CreateTab("Text")
+```
