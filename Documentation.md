@@ -19,3 +19,9 @@ local Tab = Window:CreateTab("Text")
 ```lua
 Section:CreateLabel("Text")
 ```
+### Creating a Button
+```lua
+Section:CreateButton("Change Button Name",function()
+print("Script")
+end)
+```
