@@ -25,6 +25,12 @@ Section:CreateButton("Text",function()
 print("Script")
 end)
 ```
+### Creating a Toggle
+```lua
+Section:CreateToggle("Change Toggle Name",function()
+print("Good")
+end)
+```
 ### Creating a Label
 ```lua
 Section:CreateLabel("Text")
