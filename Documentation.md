@@ -27,11 +27,27 @@ end)
 ```
 ### Creating a Toggle
 ```lua
-Section:CreateToggle("Change Toggle Name",function()
-print("Good")
+Section:CreateToggle("Text",function()
+print("Script")
+end)
+```
+### Creating a TextBox
+```lua
+Section:CreateBox("Text",function()
+print("Script")
 end)
 ```
 ### Creating a Label
 ```lua
 Section:CreateLabel("Text")
+```
+### Creating a Notification
+```lua
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+	Title = "Title",
+
+	Text = "Text"
+
+})
 ```
