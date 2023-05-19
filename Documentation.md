@@ -22,19 +22,19 @@ local Section = Tab:CreateSection("Text")
 ### Creating a Button
 ```lua
 Section:CreateButton("Text",function()
-print("Script")
+       print("Script")
 end)
 ```
 ### Creating a Toggle
 ```lua
 Section:CreateToggle("Text",function()
-print("Script")
+       print("Script")
 end)
 ```
 ### Creating a TextBox
 ```lua
 Section:CreateBox("Text",function()
-print("Script")
+       print("Script")
 end)
 ```
 ### Creating a Label
