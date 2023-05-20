@@ -664,6 +664,8 @@ Button_1.BorderColor3 = Color3.fromRGB(27,42,53)
 
 Button_1.Size = UDim2.new(1, 0,0, 32)
 
+Button_1.Text = "" 
+
 UICorner_9.Parent = Button_1
 
 UICorner_9.CornerRadius = UDim.new(0,4)
@@ -783,6 +785,8 @@ ToggleInactive_1.Parent = Hometab_1
 ToggleInactive_1.BackgroundColor3 = Color3.fromRGB(0,0,0)
 
 ToggleInactive_1.BorderColor3 = Color3.fromRGB(27,42,53)
+
+ToggleInactive_1.Text = "" 
 
 ToggleInactive_1.Size = UDim2.new(1, 0,0, 32)
 
