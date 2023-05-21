@@ -45,9 +45,13 @@ Section:CreateLabel("Text")
 ```lua
 game:GetService("StarterGui"):SetCore("SendNotification",{
 
-	Title = "Title",
+	     Title = "Title",
 
-	Text = "Text"
+	     Text = "Text",
+
+	     Duration = Number,
+
+	     Button1 = "Text"
 
 })
 ```
